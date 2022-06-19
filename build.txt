@@ -1,0 +1,10 @@
+displayName = Tail Vanities
+author = SuperAndyHero
+version = 1.0
+modReferences = TailLib
+homepage = https://discord.gg/upFBjZS
+hideCode = false
+hideResources = false
+includeSource = false
+includePDB = false
+buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, Properties\*, .git\*
