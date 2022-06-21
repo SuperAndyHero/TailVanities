@@ -22,11 +22,13 @@ namespace TailVanities.Tails
 			spriteBatch.Draw(startex, pos, null, Lighting.GetColor((tailInstance.tailBones.ropeSegments[tailInstance.tailBones.segmentCount - 1].posNow / 16).ToPoint()), (pos - beforeSegPos).ToRotation() + ((float)Math.PI / 2), startex.Size() / 2, 1f, SpriteEffects.None, 0);
 		}
 
+		public override Vector2 DrawMenuOffset() => new Vector2(0, -4);
+
         public override void PostDrawMenuLayer(ref PlayerDrawSet drawInfo)
         {
 			Texture2D tex = ModContent.Request<Texture2D>("TailVanities/Tails/StarryOverlay").Value;
 			int frameSize = tex.Height / 20;
-			var data = new DrawData(ModContent.Request<Texture2D>("TailVanities/Tails/StarryOverlay").Value, (drawInfo.Position + new Vector2(-3, 0)) - Main.screenPosition, null, Color.White, 0f, new Vector2(tex.Width, frameSize), 1f, SpriteEffects.FlipHorizontally, 0);
+			var data = new DrawData(ModContent.Request<Texture2D>("TailVanities/Tails/StarryOverlay").Value, (drawInfo.Position + new Vector2(-9, 0)) - Main.screenPosition, null, Color.White, 0f, new Vector2(tex.Width, frameSize), 1f, SpriteEffects.FlipHorizontally, 0);
 			drawInfo.DrawDataCache.Add(data);
         }
 
@@ -34,7 +36,7 @@ namespace TailVanities.Tails
 		{
 			tailInstance.TailWobble(5, 6, 0.05f, 0.2f, 0.1f, 0.12f);//wobbles the tail when idle or running
 			return true;
-		}
+		}          
 
 		public override float Width => 4f;
 		public override Vector2 TexPosOffset => new Vector2(0.10000022f, 4.0499973f);
