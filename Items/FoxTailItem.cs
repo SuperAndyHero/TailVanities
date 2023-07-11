@@ -16,8 +16,8 @@ namespace TailVanities.Items
 
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Fox Tail");
-            Tooltip.SetDefault("This can be equiped on your player");
+            // DisplayName.SetDefault("Fox Tail");
+            // Tooltip.SetDefault("This can be equiped on your player");
         }
         public override string Texture => "TailVanities/Tails/Fox";
 

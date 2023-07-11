@@ -10,16 +10,16 @@ using TailVanities.Tails;
 
 namespace TailVanities.Items
 {
-    public class SharkTailItem : TailItem
+    public class FoxTailVanilla2Item : TailItem
     {
-        public SharkTailItem() : base(typeof(SharkTail)) { }
+        public FoxTailVanilla2Item() : base(typeof(FoxTailVanilla2)) { }
 
         public override void SetStaticDefaults()
         {
-            // DisplayName.SetDefault("Shark Tail");
+            // DisplayName.SetDefault("Fox Tail");
             // Tooltip.SetDefault("This can be equiped on your player");
         }
-        public override string Texture => "TailVanities/Tails/Shark";
+        public override string Texture => "TailVanities/Tails/FoxVanilla2";
 
         public override void SetDefaults()
         {

@@ -1,0 +1,36 @@
+Items: {
+	axs: {
+		DisplayName: axs
+		Tooltip: ""
+	}
+
+	FoxTailItem: {
+		DisplayName: Fox Tail Item
+		Tooltip: ""
+	}
+
+	OtterTailItem: {
+		DisplayName: Otter Tail Item
+		Tooltip: ""
+	}
+
+	SharkTailItem: {
+		DisplayName: Shark Tail Item
+		Tooltip: ""
+	}
+
+	StarryTailItem: {
+		DisplayName: Starry Tail Item
+		Tooltip: ""
+	}
+
+	FoxTailVanilla1Item: {
+		DisplayName: Fox Tail Vanilla1 Item
+		Tooltip: ""
+	}
+
+	FoxTailVanilla2Item: {
+		DisplayName: Fox Tail Vanilla2 Item
+		Tooltip: ""
+	}
+}
