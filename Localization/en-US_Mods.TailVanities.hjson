@@ -33,4 +33,9 @@ Items: {
 		DisplayName: Fox Tail Vanilla2 Item
 		Tooltip: ""
 	}
+
+	FoxTailBlankItem: {
+		DisplayName: Fox Tail Blank Item
+		Tooltip: ""
+	}
 }

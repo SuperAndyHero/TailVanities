@@ -10,11 +10,11 @@ using TailVanities.Tails;
 
 namespace TailVanities.Items
 {
-    public class FoxTailVanilla1Item : TailItem
+    public class FoxTailBlankOrangeItem : TailItem
     {
-        public FoxTailVanilla1Item() : base(typeof(FoxTailVanilla1)) { }
+        public FoxTailBlankOrangeItem() : base(typeof(FoxTailBlankOrange)) { }
 
-        public override string Texture => "TailVanities/Tails/FoxVanilla1";
+        public override string Texture => "TailVanities/Tails/FoxBlankOrange";
 
         public override void SetDefaults()
         {

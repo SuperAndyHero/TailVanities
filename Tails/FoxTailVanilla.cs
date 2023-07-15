@@ -51,4 +51,14 @@ namespace TailVanities.Tails
     {
         public override string Texture => "TailVanities/Tails/FoxVanilla2";
     }
+
+    public class FoxTailBlank: FoxTailVanilla1
+    {
+        public override string Texture => "TailVanities/Tails/FoxBlank";
+    }
+
+    public class FoxTailBlankOrange : FoxTailVanilla1
+    {
+        public override string Texture => "TailVanities/Tails/FoxBlankOrange";
+    }
 }
