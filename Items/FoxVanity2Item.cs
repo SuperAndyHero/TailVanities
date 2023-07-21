@@ -10,11 +10,11 @@ using TailVanities.Tails;
 
 namespace TailVanities.Items
 {
-    public class SharkTailItem : TailItem
+    public class FoxVanity2Item : TailItem
     {
-        public SharkTailItem() : base(typeof(SharkTail)) { }
+        public FoxVanity2Item() : base(typeof(FoxVanity2)) { }
 
-        //public override string Texture => "TailVanities/Tails/Shark";
+        //public override string Texture => "TailVanities/Tails/FoxVanilla2";
         public override void SetDefaults()
         {
             Item.width = 18;

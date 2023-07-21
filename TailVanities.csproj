@@ -12,7 +12,7 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="TailLib">
-      <HintPath>..\..\ModReader\TailLib\TailLib.dll</HintPath>
+      <HintPath>..\TailLib\bin\Debug\net6.0\TailLib.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>

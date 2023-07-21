@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using TailLib;
 using Terraria;
 using Terraria.DataStructures;
+using Terraria.Graphics.Shaders;
 using Terraria.ModLoader;
 
 namespace TailVanities.Tails
@@ -19,10 +20,12 @@ namespace TailVanities.Tails
 			Vector2 pos = tailInstance.tailBones.ropeSegments[tailInstance.tailBones.segmentCount - 1].ScreenPos;
 			Vector2 beforeSegPos = tailInstance.tailBones.ropeSegments[tailInstance.tailBones.segmentCount - 2].ScreenPos;
 			Texture2D startex = ModContent.Request<Texture2D>("TailVanities/Tails/StarryOverlay").Value;
-			spriteBatch.Draw(startex, pos, null, Lighting.GetColor((tailInstance.tailBones.ropeSegments[tailInstance.tailBones.segmentCount - 1].posNow / 16).ToPoint()), (pos - beforeSegPos).ToRotation() + ((float)Math.PI / 2), startex.Size() / 2, 1f, SpriteEffects.None, 0);
-		}
 
-		public override Vector2 DrawMenuOffset() => new Vector2(0, -4);
+			DrawData data = new DrawData(startex, pos, null, Lighting.GetColor((tailInstance.tailBones.ropeSegments[tailInstance.tailBones.segmentCount - 1].posNow / 16).ToPoint()), (pos - beforeSegPos).ToRotation() + ((float)Math.PI / 2), startex.Size() / 2, 1f, SpriteEffects.None, 0);
+			DrawShaderSprite(spriteBatch, data);
+        }
+
+        public override Vector2 DrawMenuOffset() => new Vector2(0, -4);
 
         public override void PostDrawMenuLayer(ref PlayerDrawSet drawInfo)
         {

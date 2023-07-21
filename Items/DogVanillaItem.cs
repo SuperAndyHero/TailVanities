@@ -10,12 +10,11 @@ using TailVanities.Tails;
 
 namespace TailVanities.Items
 {
-    public class FoxTailBlankOrangeItem : TailItem
+    public class DogVanillaItem : TailItem
     {
-        public FoxTailBlankOrangeItem() : base(typeof(FoxTailBlankOrange)) { }
+        public DogVanillaItem() : base(typeof(DogVanillaTail)) { }
 
-        public override string Texture => "TailVanities/Tails/FoxBlankOrange";
-
+        //public override string Texture => "TailVanities/Tails/DogVanilla";
         public override void SetDefaults()
         {
             Item.width = 18;

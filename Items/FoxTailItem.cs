@@ -14,8 +14,7 @@ namespace TailVanities.Items
     {
         public FoxTailItem() : base(typeof(FoxTail)) { }
 
-        public override string Texture => "TailVanities/Tails/Fox";
-
+        //public override string Texture => "TailVanities/Tails/Fox";
         public override void SetDefaults()
         {
             Item.width = 18;

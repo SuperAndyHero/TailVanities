@@ -8,9 +8,9 @@ using Terraria.ModLoader;
 
 namespace TailVanities.Tails
 {
-	public class FoxTailVanilla1 : Tailbase
+	public class FoxVanity1 : Tailbase
 	{
-		public override string Texture => "TailVanities/Tails/FoxVanilla1";
+		public override string Texture => "TailVanities/Tails/FoxVanity1";
 		public override Vector2 WorldOffset => new Vector2(4f, 11.4f);
 		public override bool PreUpdate()
 		{
@@ -47,17 +47,17 @@ namespace TailVanities.Tails
         };
 	}
 
-    public class FoxTailVanilla2 : FoxTailVanilla1
+    public class FoxVanity2 : FoxVanity1
     {
-        public override string Texture => "TailVanities/Tails/FoxVanilla2";
+        public override string Texture => "TailVanities/Tails/FoxVanity2";
     }
 
-    public class FoxTailBlank: FoxTailVanilla1
+    public class FoxVanityBlank: FoxVanity1
     {
         public override string Texture => "TailVanities/Tails/FoxBlank";
     }
 
-    public class FoxTailBlankOrange : FoxTailVanilla1
+    public class FoxVanityOrange : FoxVanity1
     {
         public override string Texture => "TailVanities/Tails/FoxBlankOrange";
     }

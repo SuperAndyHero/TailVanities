@@ -38,4 +38,39 @@ Items: {
 		DisplayName: Fox Tail Blank Item
 		Tooltip: ""
 	}
+
+	DogVanillaItem: {
+		DisplayName: Dog Vanilla Item
+		Tooltip: ""
+	}
+
+	FoxVanillaItem: {
+		DisplayName: Fox Vanilla Item
+		Tooltip: ""
+	}
+
+	FoxVanity1Item: {
+		DisplayName: Fox Vanity1 Item
+		Tooltip: ""
+	}
+
+	FoxVanity2Item: {
+		DisplayName: Fox Vanity2 Item
+		Tooltip: ""
+	}
+
+	FoxVanityBlankItem: {
+		DisplayName: Fox Vanity Blank Item
+		Tooltip: ""
+	}
+
+	FoxVanityBlankOrangeItem: {
+		DisplayName: Fox Vanity Blank Orange Item
+		Tooltip: ""
+	}
+
+	LizardVanillaItem: {
+		DisplayName: Lizard Vanilla Item
+		Tooltip: ""
+	}
 }
