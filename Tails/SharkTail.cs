@@ -12,7 +12,9 @@ namespace TailVanities.Tails
 	{
 		public override string Texture => "TailVanities/Tails/Shark";
 		public override Vector2 WorldOffset => new Vector2(0f, 10.2f);
-		public override float Width => 13.55f;
+        public override Vector2 DrawMenuOffset() => new Vector2(12f, 7f);
+
+        public override float Width => 13.55f;
 		public override Vector2 TexPosOffset => new Vector2(0.05f, -10.1f);
 		public override Vector2 TexSizeOffset => new Vector2(6.1f, 7.55f);
 		public override int PhysicsRepetitions => 5;

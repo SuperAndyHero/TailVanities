@@ -10,18 +10,8 @@ using TailVanities.Tails;
 
 namespace TailVanities.Items
 {
-    public class SharkTailItem : TailItem
+    public class SharkTailItem : BaseVanityItem
     {
         public SharkTailItem() : base(typeof(SharkTail)) { }
-
-        //public override string Texture => "TailVanities/Tails/Shark";
-        public override void SetDefaults()
-        {
-            Item.width = 18;
-            Item.height = 18;
-            Item.value = 1000;
-            Item.accessory = true;
-            Item.rare = ItemRarityID.Green;
-        }
     }
 }

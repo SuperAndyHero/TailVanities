@@ -10,18 +10,8 @@ using TailVanities.Tails;
 
 namespace TailVanities.Items
 {
-    public class FoxVanityBlankOrangeItem : TailItem
+    public class FoxVanityBlankOrangeItem : BaseVanityItem
     {
         public FoxVanityBlankOrangeItem() : base(typeof(FoxVanityOrange)) { }
-
-        //public override string Texture => "TailVanities/Tails/FoxBlankOrange";
-        public override void SetDefaults()
-        {
-            Item.width = 18;
-            Item.height = 18;
-            Item.value = 1000;
-            Item.accessory = true;
-            Item.rare = ItemRarityID.Green;
-        }
     }
 }

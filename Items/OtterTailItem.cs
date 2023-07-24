@@ -10,18 +10,8 @@ using TailVanities.Tails;
 
 namespace TailVanities.Items
 {
-    public class OtterTailItem : TailItem
+    public class OtterTailItem : BaseVanityItem
     {
         public OtterTailItem() : base(typeof(OtterTail)) { }
-
-        //public override string Texture => "TailVanities/Tails/Otter";
-        public override void SetDefaults()
-        {
-            Item.width = 18;
-            Item.height = 18;
-            Item.value = 1000;
-            Item.accessory = true;
-            Item.rare = ItemRarityID.Green;
-        }
     }
 }

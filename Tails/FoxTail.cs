@@ -12,7 +12,9 @@ namespace TailVanities.Tails
 	{
 		public override string Texture => "TailVanities/Tails/Fox";
 		public override Vector2 WorldOffset => new Vector2(6f, 8f);
-		public override bool PreUpdate()
+        public override Vector2 DrawMenuOffset() => new Vector2(-6f, 6f);
+
+        public override bool PreUpdate()
 		{
 			tailInstance.TailWobble(4, 5, 0.02f, 0.12f, 0.4f, 0.7f);//wobbles the tail when idle or running
 			return true;

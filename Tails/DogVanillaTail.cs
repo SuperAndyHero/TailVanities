@@ -12,6 +12,7 @@ namespace TailVanities.Tails
     {
         public override string Texture => "TailVanities/Tails/DogVanilla";
         public override Vector2 WorldOffset => new Vector2(1.8f, 11.4f);
+        public override Vector2 DrawMenuOffset() => new Vector2(6f, 9f);
         public override bool PreUpdate()
         {
             tailInstance.TailWobble(3, 4, 0.06f, 0.16f, 0.4f, 0.65f, 0, 1);//wobbles the tail when idle or running

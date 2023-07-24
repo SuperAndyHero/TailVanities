@@ -10,18 +10,8 @@ using TailVanities.Tails;
 
 namespace TailVanities.Items
 {
-    public class LizardVanillaItem : TailItem
+    public class LizardVanillaItem : BaseVanityItem
     {
         public LizardVanillaItem() : base(typeof(LizardVanillaTail)) { }
-
-        //public override string Texture => "TailVanities/Tails/LizardVanilla";
-        public override void SetDefaults()
-        {
-            Item.width = 18;
-            Item.height = 18;
-            Item.value = 1000;
-            Item.accessory = true;
-            Item.rare = ItemRarityID.Green;
-        }
     }
 }

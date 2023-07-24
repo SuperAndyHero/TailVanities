@@ -10,18 +10,8 @@ using TailVanities.Tails;
 
 namespace TailVanities.Items
 {
-    public class StarryTailItem : TailItem
+    public class StarryTailItem : BaseVanityItem
     {
         public StarryTailItem() : base(typeof(StarryTail)) { }
-
-        //public override string Texture => "TailVanities/Tails/Starry";
-        public override void SetDefaults()
-        {
-            Item.width = 18;
-            Item.height = 18;
-            Item.value = 1000;
-            Item.accessory = true;
-            Item.rare = ItemRarityID.Green;
-        }
     }
 }

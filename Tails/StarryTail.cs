@@ -27,7 +27,7 @@ namespace TailVanities.Tails
 
         public override Vector2 DrawMenuOffset() => new Vector2(0, -4);
 
-        public override void PostDrawMenuLayer(ref PlayerDrawSet drawInfo)
+        public override void PostDrawMenuLayer(ref PlayerDrawSet drawInfo)//for drawing on to the player on the main menu
         {
 			Texture2D tex = ModContent.Request<Texture2D>("TailVanities/Tails/StarryOverlay").Value;
 			int frameSize = tex.Height / 20;

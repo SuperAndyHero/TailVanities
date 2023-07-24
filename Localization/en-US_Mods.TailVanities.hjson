@@ -1,76 +1,56 @@
 Items: {
-	axs: {
-		DisplayName: axs
+	DogVanillaItem: {
+		DisplayName: Dog Tail
 		Tooltip: ""
 	}
 
 	FoxTailItem: {
-		DisplayName: Fox Tail Item
-		Tooltip: ""
-	}
-
-	OtterTailItem: {
-		DisplayName: Otter Tail Item
-		Tooltip: ""
-	}
-
-	SharkTailItem: {
-		DisplayName: Shark Tail Item
-		Tooltip: ""
-	}
-
-	StarryTailItem: {
-		DisplayName: Starry Tail Item
-		Tooltip: ""
-	}
-
-	FoxTailVanilla1Item: {
-		DisplayName: Fox Tail Vanilla1 Item
-		Tooltip: ""
-	}
-
-	FoxTailVanilla2Item: {
-		DisplayName: Fox Tail Vanilla2 Item
-		Tooltip: ""
-	}
-
-	FoxTailBlankItem: {
-		DisplayName: Fox Tail Blank Item
-		Tooltip: ""
-	}
-
-	DogVanillaItem: {
-		DisplayName: Dog Vanilla Item
+		DisplayName: Fluffy Fox Tail
 		Tooltip: ""
 	}
 
 	FoxVanillaItem: {
-		DisplayName: Fox Vanilla Item
+		DisplayName: Fox Tail
 		Tooltip: ""
 	}
 
 	FoxVanity1Item: {
-		DisplayName: Fox Vanity1 Item
-		Tooltip: ""
+		DisplayName: Medium Tail
+		Tooltip: Pattern Fox 1
 	}
 
 	FoxVanity2Item: {
-		DisplayName: Fox Vanity2 Item
-		Tooltip: ""
+		DisplayName: Medium Tail
+		Tooltip: Pattern Fox 2
 	}
 
 	FoxVanityBlankItem: {
-		DisplayName: Fox Vanity Blank Item
-		Tooltip: ""
+		DisplayName: Medium Tail
+		Tooltip: Pattern Blank 1
 	}
 
 	FoxVanityBlankOrangeItem: {
-		DisplayName: Fox Vanity Blank Orange Item
-		Tooltip: ""
+		DisplayName: Medium Tail
+		Tooltip: Pattern Blank 2
 	}
 
 	LizardVanillaItem: {
-		DisplayName: Lizard Vanilla Item
+		DisplayName: Lizard Tail
+		Tooltip: ""
+	}
+
+	OtterTailItem: {
+		DisplayName: Otter Tail
+		Tooltip: ""
+	}
+
+	SharkTailItem: {
+		DisplayName: Shark Tail
+		Tooltip: ""
+	}
+
+	StarryTailItem: {
+		DisplayName: Starry Tail
 		Tooltip: ""
 	}
 }

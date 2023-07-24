@@ -7,14 +7,14 @@ using Microsoft.Xna.Framework.Graphics;
 using System.Collections.Generic;
 using TailLib;
 using TailVanities.Tails;
+using System;
 
 namespace TailVanities.Items
 {
-    public class DogVanillaItem : BaseVanityItem
+    public abstract class BaseVanityItem : TailItem
     {
-        public DogVanillaItem() : base(typeof(DogVanillaTail)) { }
+        protected BaseVanityItem(Type tailType) : base(tailType) { }
 
-        //public override string Texture => "TailVanities/Tails/DogVanilla";
         public override void SetDefaults()
         {
             Item.width = 18;
